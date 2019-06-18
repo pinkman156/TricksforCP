@@ -1,0 +1,5 @@
+Lets say pthp th digit of ii is jj. We can now see that pp th digit of 10K−1−i10^K-1-i will be 9−j9-j.
+
+Lets say 1st1st digit (one’s place) of ii is jj. Now 1st1st digit of 10K−i−110^K-i-1 (one’s place) will be 9−j9-j. We can see that jj and 9−j9-j are never equal. So now, the two distinct digits must be jj and 9−j9-j.
+
+So now from here, we can conclude that digits of ii can be jj or 9−j9-j only. Now lets prove that all such numbers of this form have exactly 22 digits.
