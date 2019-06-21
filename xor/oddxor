@@ -1,0 +1,2 @@
+to find number of pairs with odd xors, find the number of even numbers
+and return count*(N- count)
