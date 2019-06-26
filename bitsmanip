@@ -1,0 +1,15 @@
+Divide 2 x>>=1
+Multiplying 2 x<<=1
+
+ Upper case English alphabet to lower case ch |= ' '
+Lower case English alphabet to upper case ch &='_'
+
+if (num & 1) 
+   cout << "ODD"; 
+else
+   cout << "EVEN";
+
+   // A quick way to swap a and b 
+a ^= b; 
+b ^= a; 
+a ^= b;  

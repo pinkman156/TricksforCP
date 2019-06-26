@@ -1,0 +1,11 @@
+bool sortcol(const vector<int>& v1,const vector<int>& v2)
+{
+	return v1[1]>v2[1];//descending
+}
+{
+
+}
+sort(v.begin(), v.end(),sortcol)
+
+to sort row wise
+sort(v[2].begin(),v[2].end());//ascending
