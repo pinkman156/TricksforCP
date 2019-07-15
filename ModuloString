@@ -1,0 +1,10 @@
+input 0<n<10^100
+take input as string
+int modulus(string s)
+{int mod; int res=s[0];
+for(int i=1;i<n;i++)
+{
+res=((res*10) +(s[i]-'0'))%mod;
+}
+return res;
+}

@@ -1,0 +1,14 @@
+int getParity(int n) 
+{ 
+    int parity = 0; 
+    while (n) 
+    { 
+        parity = !parity; 
+        n     = n & (n - 1); 
+    }      
+    return parity; 
+}
+
+The property is, the difference between a binary number n and n-1 is all the bits on the right of the rightmost 1 are flipped including the rightmost 1. Using this amazing property, we can get our solution as
+
+x ^ (x & (x - 1))
