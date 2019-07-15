@@ -1,0 +1,3 @@
+if even>2 always can be represented by sum of 2 primes- Goldbach conjecture
+if odd- if (n-2) is prime - then can be represented as a sum of 2 primes
+else if (n-2!=prime) = sum of 3 primes
